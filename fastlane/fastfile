@@ -1,0 +1,16 @@
+
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Release Pro app"
+  lane :release_pro do
+    puts "Omar says"
+    puts "lets rung some tests"
+
+    run_tests
+
+    puts "Omar is Here with"
+    puts "fast lane baby"
+  end
+end
