@@ -30,5 +30,4 @@ class Converter {
   func convert(_ number: Int) -> String {
     return number == 1 ? "I" : "II"
   }
-  
 }
