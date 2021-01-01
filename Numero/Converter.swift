@@ -28,6 +28,10 @@
 
 class Converter {
   func convert(_ number: Int) -> String {
-    return number == 1 ? "I" : "II"
+    var output = ""
+    for _ in (0..<number) where number > 0 {
+        output += "I"
+    }
+    return output
   }
 }
